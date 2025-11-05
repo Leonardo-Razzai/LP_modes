@@ -11,7 +11,7 @@ The simulation is based on the **weakly-guiding approximation** $n_{core} ≈ n_
 2.  **Input Beam:** The input field is modeled as a paraxial Gaussian beam. This beam can be elliptical ($w_{0x} ≠ w_{0y}$), offset from the fiber axis ($x_0,y_0$), and tilted using 3D Euler angles (roll, pitch, yaw).
 
 3.  **Modal Projection:** The coupling efficiency is determined by projecting the input electric field onto the basis of the guided mode fields. The complex coefficients are:
-4.  
+  
 $$
 c_{lm} = 
 \frac{\iint_A\mathbf{E}_{\text{in}}(x,y)\cdot\mathbf{E}_{lm}^*(x,y)\,dA}{\iint_A|\mathbf{E}_{lm}(x,y)|^2\,dA}
